@@ -9,14 +9,14 @@ http.get("https://jsonplaceholder.typicode.com/posts", (err, posts) => {
   }
 })
 
-// // Get Posts
-// http.get("https://jsonplaceholder.typicode.com/posts/1", (err, posts) => {
-//   if (err) {
-//     console.log(err)
-//   } else {
-//     console.log(posts)
-//   }
-// })
+//  Get Posts
+http.get("https://jsonplaceholder.typicode.com/posts/1", (err, posts) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(posts)
+  }
+})
 
 // Create Data
 const data = {
