@@ -1,13 +1,13 @@
 const http = new easyHTTP()
 
-// // Get Posts
-// http.get("https://jsonplaceholder.typicode.com/posts", (err, posts) => {
-//   if (err) {
-//     console.log(err)
-//   } else {
-//     console.log(posts)
-//   }
-// })
+//  Get Posts
+http.get("https://jsonplaceholder.typicode.com/posts", (err, posts) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(posts)
+  }
+})
 
 // // Get Posts
 // http.get("https://jsonplaceholder.typicode.com/posts/1", (err, posts) => {
