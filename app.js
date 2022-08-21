@@ -33,14 +33,14 @@ http.post("https://jsonplaceholder.typicode.com/posts", data, (err, posts) => {
   }
 })
 
-// // Update Post
-// http.put("https://jsonplaceholder.typicode.com/posts/5", data, (err, post) => {
-//   if (err) {
-//     console.log(err)
-//   } else {
-//     console.log(post)
-//   }
-// })
+//  Update Post
+http.put("https://jsonplaceholder.typicode.com/posts/5", data, (err, post) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(post)
+  }
+})
 
 // Delete Post
 http.delete("https://jsonplaceholder.typicode.com/posts/5", (err, res) => {
