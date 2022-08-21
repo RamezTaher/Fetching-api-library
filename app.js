@@ -24,14 +24,14 @@ const data = {
   body: "custom body",
 }
 
-// // Create Post
-// http.post("https://jsonplaceholder.typicode.com/posts", data, (err, posts) => {
-//   if (err) {
-//     console.log(err)
-//   } else {
-//     console.log(posts)
-//   }
-// })
+//  Create Post
+http.post("https://jsonplaceholder.typicode.com/posts", data, (err, posts) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(posts)
+  }
+})
 
 // // Update Post
 // http.put("https://jsonplaceholder.typicode.com/posts/5", data, (err, post) => {
